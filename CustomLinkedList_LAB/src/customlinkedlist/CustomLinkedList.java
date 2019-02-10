@@ -7,8 +7,9 @@ package customlinkedlist;
 
 /**
  *
- * @author jit
+ * @author Abdullah Shublaq
  */
+
 public class CustomLinkedList<E> {
 
     private int size = 0;
@@ -35,7 +36,7 @@ public class CustomLinkedList<E> {
             head = tail;
         } else {
             /*tail.next=new Node(data);
-              taia=tail.next;   */
+              tail=tail.next;   */
             Node temp = tail;
             tail = new Node(data);
             temp.next = tail;
