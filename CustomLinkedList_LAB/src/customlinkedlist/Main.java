@@ -1,5 +1,10 @@
 package customlinkedlist;
 
+/**
+ *
+ * @author Abdullah Shublaq
+ */
+
 /*import java.util.LinkedList;*/
 
 public class Main {
